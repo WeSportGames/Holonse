@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="stadium" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7d8a98"/>
+      <stop offset="100%" stop-color="#505a68"/>
+    </linearGradient>
+    <linearGradient id="jersey1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d352"/>
+      <stop offset="100%" stop-color="#d1a225"/>
+    </linearGradient>
+    <linearGradient id="jersey2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ec1ff"/>
+      <stop offset="100%" stop-color="#3e79d8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" fill="url(#stadium)"/>
+
+  <g opacity="0.2" fill="#fff">
+    <circle cx="10" cy="8" r="1.4"/>
+    <circle cx="18" cy="12" r="1.4"/>
+    <circle cx="26" cy="8" r="1.4"/>
+    <circle cx="42" cy="10" r="1.4"/>
+    <circle cx="52" cy="8" r="1.4"/>
+    <circle cx="58" cy="15" r="1.4"/>
+  </g>
+
+  <g>
+    <path d="M16 60 L18 36 L28 28 L30 60 Z" fill="#2f2d39"/>
+    <path d="M36 60 L38 36 L48 28 L50 60 Z" fill="#2f2d39"/>
+
+    <path d="M20 33 L25 18 L31 20 L29 33 Z" fill="url(#jersey1)"/>
+    <path d="M33 33 L39 18 L45 20 L43 33 Z" fill="url(#jersey2)"/>
+
+    <path d="M23 20 C26 16, 30 16, 32 20 L31 33 L23 33 Z" fill="#f0efea"/>
+    <path d="M32 20 C35 16, 39 16, 41 20 L43 33 L32 33 Z" fill="#f0efea"/>
+
+    <circle cx="32" cy="16" r="6" fill="#d9d4cd"/>
+    <path d="M31 11 L34 11 L36 15 L34 19 L31 19 L29 15 Z" fill="#27272d"/>
+    <path d="M25 21 C28 19, 30 19, 32 21" stroke="#d0c8b7" stroke-width="1.2" fill="none"/>
+    <path d="M39 21 C36 19, 34 19, 32 21" stroke="#d0c8b7" stroke-width="1.2" fill="none"/>
+
+    <path d="M19 27 L17 34 L20 40 L25 34 Z" fill="#0f1e28"/>
+    <path d="M45 27 L47 34 L44 40 L39 34 Z" fill="#0f1e28"/>
+  </g>
+
+  <g opacity="0.8">
+    <circle cx="12" cy="48" r="5" fill="#8cc8a2"/>
+    <circle cx="52" cy="48" r="5" fill="#8cc8a2"/>
+    <path d="M10 54 L54 54" stroke="#dff7d5" stroke-width="1.2"/>
+  </g>
+
+  <g fill="#f4d674" opacity="0.85">
+    <circle cx="8" cy="20" r="1.2"/>
+    <circle cx="56" cy="20" r="1.2"/>
+    <circle cx="13" cy="26" r="1.2"/>
+    <circle cx="51" cy="26" r="1.2"/>
+  </g>
+</svg>

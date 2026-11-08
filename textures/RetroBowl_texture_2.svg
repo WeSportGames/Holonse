@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f273a"/>
+      <stop offset="100%" stop-color="#1a423a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffeb97"/>
+      <stop offset="100%" stop-color="#d89c1f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" fill="#20352b"/>
+
+  <g>
+    <rect x="6" y="8" width="52" height="48" rx="4" fill="url(#panel)" stroke="#caaf5a" stroke-width="1.2"/>
+    <rect x="10" y="12" width="44" height="18" rx="2" fill="#d9b162" opacity="0.8"/>
+    <rect x="12" y="14" width="40" height="14" rx="2" fill="#31694b"/>
+
+    <text x="32" y="24" text-anchor="middle" font-size="8" fill="#f7f2d8" font-family="Verdana, sans-serif" font-weight="700">R.B.</text>
+
+    <g font-size="5" fill="#f9f3d1" font-family="Verdana, sans-serif" font-weight="700">
+      <text x="12" y="40">HOME</text>
+      <text x="12" y="48">7</text>
+      <text x="42" y="40">AWAY</text>
+      <text x="42" y="48">3</text>
+    </g>
+
+    <g stroke="#f9d87c" stroke-width="1.2" fill="none">
+      <path d="M18 32 L50 32"/>
+      <path d="M32 30 L32 52"/>
+    </g>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="18" cy="54" r="6" fill="#3a4a56"/>
+    <circle cx="18" cy="54" r="2.6" fill="#d9ba52"/>
+    <circle cx="46" cy="54" r="6" fill="#3a4a56"/>
+    <circle cx="46" cy="54" r="2.6" fill="#d9ba52"/>
+  </g>
+
+  <g>
+    <path d="M20 14 L24 17 L20 20 L16 17 Z" fill="url(#gold)"/>
+    <path d="M44 14 L48 17 L44 20 L40 17 Z" fill="url(#gold)"/>
+  </g>
+</svg>
